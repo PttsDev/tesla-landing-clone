@@ -5,7 +5,13 @@ module.exports = {
 		fontFamily: {
 			sans: ['Gotham SSm A', 'sans-serif'],
 		},
-		extend: {},
+
+		extend: {
+			colors: {
+				buttonBlack: '#171A20CC',
+				buttonWhite: '#E5E7EB',
+			},
+		},
 	},
 	plugins: [],
 }
