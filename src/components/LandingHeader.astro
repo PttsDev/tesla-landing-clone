@@ -1,0 +1,48 @@
+---
+import Logo from "./Logo.astro";
+---
+
+<header
+  class="flex items-center fixed top-0 w-full justify-between z-40 text-white"
+>
+  <h1 class="pl-8 py-4 flex flex-grow basis-0">
+    <a class="pl-4" href="#" aria-label="Tesla Logo">
+      <Logo />
+    </a>
+  </h1>
+  <nav>
+    <ul
+      class="flex text-sm py-3.5 [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-2 [&>li>a]:py-1 [&>li>a>span]:mx-2"
+    >
+      <li>
+        <a href="#"><span>Model S</span></a>
+      </li>
+      <li>
+        <a href="#"><span>Model 3</span></a>
+      </li>
+      <li>
+        <a href="#"><span>Model X</span></a>
+      </li>
+      <li>
+        <a href="#"><span>Model Y</span></a>
+      </li>
+      <li>
+        <a href="#"><span>Powerwall</span></a>
+      </li>
+      <li>
+        <a class="px-1 py-2" href="#"><span class="mx-2">Charging</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="flex flex-grow basis-0 justify-end pr-8">
+    <ul
+      class="flex text-sm py-3.5 [&>li>a]:font-medium [&>li>a]:inline-block [&>li>a]:px-2 [&>li>a]:py-1 [&>li>a>span]:mx-2"
+    >
+      <li><a href=""><span>Support</span></a></li>
+      <li><a href=""><span>Shop</span></a></li>
+      <li><a href=""><span>Account</span></a></li>
+      <li><a href=""><span>Menu</span></a></li>
+    </ul>
+  </nav>
+</header>
