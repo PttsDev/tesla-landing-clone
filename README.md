@@ -2,4 +2,4 @@
 
 A Tesla landing clone made with Astro and Tailwind
 
-![preview](https://github.com/PttsDev/tesla-landing-clone/assets/47633569/381a36d7-cb60-4d2c-943c-a95c26fc5e6b)
+![Preview](https://github.com/PttsDev/tesla-landing-clone/assets/47633569/af590502-a5ee-4ded-9991-38f6662f94f7)
